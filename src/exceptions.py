@@ -1,5 +1,7 @@
 from fastapi import HTTPException
 
+# CODE BELOW ARE EXAMPLES ONLY
+
 class TodoError(HTTPException):
     """Base exception for todo-related errors"""
     pass
